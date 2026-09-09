@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="chromeLG" x1="10%" y1="0%" x2="90%" y2="100%">
+      <stop offset="0%" stop-color="#6e6e6e"/>
+      <stop offset="14%" stop-color="#f7f7f7"/>
+      <stop offset="30%" stop-color="#8f8f8f"/>
+      <stop offset="46%" stop-color="#ffffff"/>
+      <stop offset="62%" stop-color="#575757"/>
+      <stop offset="80%" stop-color="#e4e4e4"/>
+      <stop offset="100%" stop-color="#6a6a6a"/>
+    </linearGradient>
+    <radialGradient id="shineLG" cx="35%" cy="28%" r="35%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <path d="M 50.0,5.0 L 61.76,33.82 L 92.8,36.09 L 69.02,56.18 L 76.45,86.41 L 50.0,70.0 L 23.55,86.41 L 30.98,56.18 L 7.2,36.09 L 38.24,33.82 Z" fill="url(#chromeLG)" stroke="#3d3d3d" stroke-width="1"/>
+  <path d="M 50.0,5.0 L 61.76,33.82 L 92.8,36.09 L 69.02,56.18 L 76.45,86.41 L 50.0,70.0 L 23.55,86.41 L 30.98,56.18 L 7.2,36.09 L 38.24,33.82 Z" fill="url(#shineLG)"/>
+</svg>

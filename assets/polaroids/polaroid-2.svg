@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <rect width="300" height="300" fill="#f0d7de"/>
+  <rect width="300" height="300" fill="#111111" opacity="0.04"/>
+  <g fill="none" stroke="#111111" stroke-width="2" opacity="0.35">
+    <path d="M50 190 C90 150 120 220 150 190 C180 160 210 220 250 180" stroke-width="3"/>
+    <circle cx="150" cy="110" r="30"/>
+    <path d="M120 120 L100 150 M180 120 L200 150"/>
+  </g>
+  <text x="150" y="245" font-family="Georgia, serif" font-style="italic" font-size="20" fill="#4a4744" text-anchor="middle">your photo here</text>
+</svg>

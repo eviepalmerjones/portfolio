@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="chromeSpkSm" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#767676"/>
+      <stop offset="30%" stop-color="#ffffff"/>
+      <stop offset="55%" stop-color="#9d9d9d"/>
+      <stop offset="80%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#666666"/>
+    </linearGradient>
+  </defs>
+  <path d="M 50.0,5.0 L 55.66,44.34 L 95.0,50.0 L 55.66,55.66 L 50.0,95.0 L 44.34,55.66 L 5.0,50.0 L 44.34,44.34 Z" fill="url(#chromeSpkSm)" stroke="#3d3d3d" stroke-width="1.5"/>
+</svg>

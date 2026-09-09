@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480">
+  <defs>
+    <pattern id="halftone" width="8" height="8" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="2.6" fill="#111111"/>
+    </pattern>
+    <linearGradient id="duoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#efe9dc"/>
+      <stop offset="100%" stop-color="#ddd3ba"/>
+    </linearGradient>
+    <clipPath id="frameClip">
+      <rect x="0" y="0" width="400" height="480"/>
+    </clipPath>
+  </defs>
+  <rect width="400" height="480" fill="url(#duoBg)"/>
+  <g clip-path="url(#frameClip)">
+    <!-- shoulders -->
+    <path d="M40,480 C40,360 110,320 200,320 C290,320 360,360 360,480 Z" fill="#111111" opacity="0.92"/>
+    <!-- neck -->
+    <rect x="172" y="260" width="56" height="70" fill="#111111" opacity="0.92"/>
+    <!-- head -->
+    <ellipse cx="200" cy="200" rx="82" ry="96" fill="#111111" opacity="0.92"/>
+    <!-- hair flick -->
+    <path d="M120,150 C110,90 150,40 200,40 C260,40 300,90 288,160 C300,140 300,100 280,70 C260,30 150,20 120,80 C100,110 105,140 120,150 Z" fill="#111111" opacity="0.92"/>
+    <!-- halftone overlay for grain -->
+    <rect width="400" height="480" fill="url(#halftone)" opacity="0.14"/>
+  </g>
+  <rect x="6" y="6" width="388" height="468" fill="none" stroke="#111111" stroke-width="2" opacity="0.15"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 60">
+  <defs>
+    <linearGradient id="chromeSafety" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6a6a6a"/>
+      <stop offset="25%" stop-color="#f5f5f5"/>
+      <stop offset="50%" stop-color="#9a9a9a"/>
+      <stop offset="75%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#5e5e5e"/>
+    </linearGradient>
+  </defs>
+  <path d="M15,15 C15,8 21,4 28,6 L85,22 C92,24 94,32 90,37 C86,42 78,42 74,37 L72,34"
+        fill="none" stroke="url(#chromeSafety)" stroke-width="4.5" stroke-linecap="round"/>
+  <circle cx="15" cy="15" r="9" fill="none" stroke="url(#chromeSafety)" stroke-width="4.5"/>
+  <path d="M15,24 L15,46 C15,50 19,53 23,52 C27,51 29,47 27,43 L15,24"
+        fill="none" stroke="url(#chromeSafety)" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M23,52 L38,44" fill="none" stroke="url(#chromeSafety)" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M38,44 C40,48 40,52 36,55 C42,56 47,52 46,46 C45,42 41,40 38,44 Z" fill="url(#chromeSafety)" stroke="#4a4a4a" stroke-width="1"/>
+</svg>
